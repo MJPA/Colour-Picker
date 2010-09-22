@@ -1,0 +1,7 @@
+Colour picker is a standalone utility that replicates a colour selection tool
+found in popular paint programs. It allows the user to store 8 previously used
+colours which can then be saved into files for use later. The 8 colours last
+stored in the history area, as well as the current colour, are automatically
+saved. The 'target' icon in the lower right corner can be dragged to anywhere
+on the users screen and it will find the colour of the selected pixel allowing
+you to easily find the colour used, for example, on another web site.
