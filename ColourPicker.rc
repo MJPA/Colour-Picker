@@ -1,0 +1,41 @@
+// Names for IDs please...
+#include "resource.h"
+#include <windows.h>
+
+// Language settings
+//LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+// Icons
+IDI_MAIN		ICON	DISCARDABLE		"Icons\\main.ico"
+IDI_OPEN		ICON	DISCARDABLE		"Icons\\document-open.ico"
+IDI_SAVE		ICON	DISCARDABLE		"Icons\\document-save.ico"
+
+// Version info
+1 VERSIONINFO
+FILEVERSION    		1,0,0,0
+PRODUCTVERSION		1,0,0,0
+FILEOS				VOS_NT_WINDOWS32
+FILETYPE			VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",		"MJPA"
+            VALUE "FileVersion"			"1.0.0.0"
+            VALUE "FileDescription",	"Colour Picker"
+            VALUE "InternalName",		"ColourPicker.exe"
+            VALUE "LegalCopyright",		"ColourPicker © MJPA"
+			VALUE "OriginalFilename",	"ColourPicker.exe"
+            VALUE "ProductName",		"Colour Picker"
+            VALUE "ProductVersion",		"1.0.0.0"
+        END
+    END
+
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0809, 1200
+	END
+END
+
